@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e841582cc0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="topnav" id="myTopnav">
+        <a href="#home" class="active"><i class="fa-solid fa-house-chimney" style="color: #ffffff;"></i> Logo</a>
+        <a href="#news">Team</a>
+        <a href="#contact">Work</a>
+        <a href="#about">Price</a>
+        <a href="#about">Contact</a>
+        <div class="dropdown">
+            <button class="dropbtn">Dropdown
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#page1">Page 1</a>
+                <a href="#page2">Page 2</a>
+            </div>
+        </div>
+        <a href="#" class="search"><i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i></a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <div class="container">
+        <img src="assets/media/grand-canyon-1839279_1280.jpg" alt="GrandCanyon" style="width:100%;">
+        <div class="bottom-left">Talentera</div>
+    </div>
+
+    <div class="teamsection">
+        <h2>Our Team</h2>
+        <p>Meet the team - our office rats:</p>
+    </div>
+    <div class="row">
+        <div class="column">
+            <img src="assets/media/person1.jpg">
+            <div class="memberdetail">
+                <h4>Islam AlZatary</h4>
+                <p>Web Designer</p>
+            </div>
+        </div>
+        <div class="column">
+            <img src="assets/media/person2.jpg">
+            <div class="memberdetail">
+                <h4>Tayseer Emam</h4>
+                <p>Support</p>
+            </div>
+        </div>
+        <div class="column">
+            <img src="assets/media/person3.jpg">
+            <div class="memberdetail">
+                <h4>Eman Subhi</h4>
+                <p>Boss man</p>
+            </div>
+        </div>
+        <div class="column">
+            <img src="assets/media/person4.jpg">
+            <div class="memberdetail">
+                <h4>Reem Yakoub</h4>
+                <p>Fixer</p>
+            </div>
+        </div>
+    </div>
+
+    <section class="workdetails">
+        <div class="row">
+
+            <div class="column workinfo">
+                <h2>Our Work</h2>
+                <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha
+                    sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor.</p>
+            </div>
+            <div class="column">
+                <img src="assets/media/astronomy.jpg" alt="astronomy"
+                    style="border-radius:0%; margin: 0%; width: 100%;">
+                <div class="memberdetail workcard">
+                    <h2>Customer 1</h2>
+                    <h4>Trade</h4>
+                    <p>blablabla</p>
+                    <p>blablabla</p>
+                </div>
+
+            </div>
+            <div class="column">
+                <img src="assets/media/mountains.jpg" alt="mountains"
+                    style="border-radius:0%; margin: 0%; width: 100%;">
+                <div class="memberdetail workcard">
+                    <h2>Customer 2</h2>
+                    <h4>Trade</h4>
+                    <p>blablabla</p>
+                    <p>blablabla</p>
+                </div>
+
+            </div>
+            <div class="column">
+                <img src="assets/media/river.jpg" alt="river" style="border-radius:0%; margin: 0%; width: 100%;">
+                <div class="memberdetail workcard">
+                    <h2>Customer 3</h2>
+                    <h4>Trade</h4>
+                    <p>blablabla</p>
+                    <p>blablabla</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="row contactform">
+
+            <div class="column">
+                <h2 class="contactus">Contact Us</h2>
+                <h4>Address</h4>
+                <p>Swing by for a cup of coffee, or whatever.</p>
+                <p><i class="fa-solid fa-location-dot" style="color: #1a8e45;"></i> Amman, Jordan</p>
+                <p><i class="fa-solid fa-phone" style="color: #1a8e45;"></i> +962 79 0000000</p>
+                <p><i class="fa-regular fa-envelope" style="color: #1a8e45;"></i> test@test.com</p>
+            </div>
+
+            <div class="column messageform">
+                <form class="form">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="fullname" class="textinput">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" class="textinput">
+                    <label for="message">Message</label>
+                    <input type="text" id="message" name="message" class="textinput">
+                    <div class="sendbuttoncheckbox">
+
+                        <input type="checkbox" id="checkbox"> <label>I Like it!</label>
+                        <button class="sendbutton">Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <div>
+        <button class="addbutton"><i class="fa-solid fa-plus" style="color: #ffffff;"></i></button>
+    </div>
+    <div class="footer">
+
+        <h5 style="margin-left: 50%;">Follow Us</h5>
+
+        <p style="margin-left: 50%;"><i class="fa-brands fa-square-facebook" style="color: #1a8e45;"></i>
+            <i class="fa-brands fa-square-twitter" style="color: #1a8e45;"></i>
+            <i class="fa-brands fa-square-google-plus" style="color: #1a8e45;"></i>
+            <i class="fa-brands fa-square-instagram" style="color: #1a8e45;"></i>
+        </p>
+    </div>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top" class="scrolltop"><i class="fa-solid fa-arrow-up"
+            style="color: #ffffff;"></i></button>
+    <script>
+
+
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+
+        let mybutton = document.getElementById("myBtn");
+
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+</body>
+<!-- // -->
+</html>
